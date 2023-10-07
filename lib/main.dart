@@ -39,7 +39,8 @@ class _HomePageState extends State<HomePage> {
   Widget bodyWidget(){
   return Container(
     padding: const EdgeInsets.all(8.0),
-    child: Center(child: Column(
+    child: Center(
+     child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Text(myText),
